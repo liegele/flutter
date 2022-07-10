@@ -9,11 +9,10 @@ void main() {
             title: const Text('I Am Rich'),
             backgroundColor: Colors.blueGrey[900],
           ),
-          backgroundColor: Colors.blueGrey[900],
+          backgroundColor: Colors.blueGrey,
           body: const Center(
             child: Image(
-              image: NetworkImage(
-                  'https://s2.glbimg.com/7NzvJnGtmLTc1d5TRf8YsAbTuz8=/e.glbimg.com/og/ed/f/original/2016/09/27/aurora_boreal.jpg'),
+              image: AssetImage('images/diamond.png'),
             ),
           )),
       debugShowCheckedModeBanner: false,
